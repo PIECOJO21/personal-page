@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background-color: rgb(39, 25, 19);
+    color: yellow;
+    padding: 10px 20px;
+    border-bottom: solid 3px rgba(231, 101, 101, 0.411);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+body {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+  "MORF" 17,
+  "SHLN" 38;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  font-size: 1.5em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.profile-section {
+  padding: 40px 0;
+}
+
+.profile-card, .skill-card {
+  background-color: rgb(39, 25, 19);
+  border: 3px solid rgba(231, 101, 101, 0.37);
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px 8px 5px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 3px ridge rgba(184, 82, 57, 0.671)
+}
+
+.bio h2 {
+font-size: 40px;
+}
+
+.bio p {
+  font-size: 23px;
+  margin-top: 5px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+body {
+  background-color: rgb(88, 69, 61);
+}
+
+.skill-card {
+  flex-direction: column;
+}
+
+.skill-card ul {
+  list-style-type: "Ω";
+  font-size: 23px;
+}
+
+footer {
+  font-size: 1em;
+  border-top: 3px solid rgba(231, 101, 101, 0.411);
+  margin-top: 40px; 
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
