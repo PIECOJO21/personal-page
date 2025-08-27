@@ -98,3 +98,28 @@ footer {
 h2 {
   font-size: 40px;
 }
+
+/* --- Estilos para el fondo de video --- */
+
+.video-container {
+  position: fixed; /* Lo fija en la pantalla para que no se desplace */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+  overflow: hidden;
+  z-index: -1; /* Lo envía detrás de todo el contenido */
+}
+
+#background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegura que el video cubra todo el contenedor sin deformarse */
+  transition: opacity 0.5s ease-out; /* Añade una transición suave al cambio de opacidad */
+}
+
+.main-content {
+  position: relative; /* Necesario para que z-index funcione */
+  z-index: 1; /* Se asegura que el contenido esté por encima del video */
+  background-color: transparent;
+}
